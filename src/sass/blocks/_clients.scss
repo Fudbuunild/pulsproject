@@ -1,0 +1,40 @@
+.clients {
+    padding-bottom: 68px;
+}
+
+.block_clients {
+    display: flex;
+    flex-direction: column;
+}
+
+.clients_content{
+    position: relative;
+    margin-top: 115px;
+    &:nth-child(1){
+      margin-top: 70px;
+    }
+}
+
+.client_img {
+    float: left;
+    padding-right: 65px;
+}
+
+.title_clients {
+    font-weight: 700;
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+.client_descr {
+    
+    font-size: 16px;
+    position: absolute;
+    left: 235px;
+}
+
+.clnt_subtitle {
+    padding: 10px 0 15px 0;
+    font-size: 14px;
+    color: #7f7f7f;
+}

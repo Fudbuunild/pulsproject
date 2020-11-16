@@ -1,0 +1,131 @@
+@media (max-width: 991px) { 
+      .header {
+          margin: 0 50px 0 50px;
+      }
+      .promo {
+          &__header {
+            font-size: 32px; 
+            padding: 0 50px 0 0;
+          }
+          &__subheader {
+            font-size: 17px;
+            padding: 0 50px 0 0;
+          } 
+          .button_main {
+            margin: 67px 50px 0 0;
+          }
+          &__icons {
+              padding-right: 50px;
+          }
+          &__link {
+              margin-right: 50px;
+          }
+      }
+       .adv_a {
+            font-size: 12px;
+        }
+    //    .button_submit {
+    //        margin-left: 30px;
+    //    }
+       .feed-form {
+           margin-left: 30px;
+       }
+       .client_img {
+        margin-left: 10px;
+    }
+    .catalog {
+        .catalog-item__img {
+            width: 250px;
+        }
+    }
+}
+
+@media (max-width: 768px) { 
+    .advantages {
+        .advant {
+            flex-direction: column;
+            .adv_block {
+                width: 450px;
+                margin: 0 auto;
+                .adv_a {
+                    span {
+                        color: red
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) { 
+    .header {
+        margin: 0 auto;
+    }
+    .promo {
+        &__header {
+          font-size: 20px; 
+          margin: 0 auto;
+        }
+        &__subheader {
+          font-size: 14px;
+          margin: 0 auto;
+        } 
+        .button_main {
+          margin: 50px auto;
+          width: 230px;
+          font-size: 13px;
+        }
+        &__icons {
+            display: flex;
+            flex-direction: column;
+            width: 240px;
+        }
+        &__link {
+            margin-right: 50px;
+        }
+    }
+    .header__official {
+     font-size: 10px;
+     span {
+        font-size: 11px;
+     }
+    }
+    .header__phone {
+        font-size: 12px;
+    }
+    .btn-nav {
+        width: 102px;
+        font-size: 9px; 
+    }
+    
+    .advantages {
+        .advant {
+            flex-direction: column;
+            .adv_block {
+                width: 250px;
+                margin: 20px auto;
+                .adv_a {
+                    span {
+                        color: red
+                    }
+                }
+            }
+        }
+    }
+    .clients {
+
+       .client_img {
+            margin-left: 10px;
+            width: 200px;
+            height: 130px;
+    }
+       .client_descr {
+            font-size: 7px;
+            padding-right: 10px;
+    }
+       .clients_content {
+            margin-bottom: 150px;
+            max-height: 300px;
+    }
+  }
+}
